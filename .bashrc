@@ -14,3 +14,5 @@ export PATH=/home/isucon/.local/go/bin:$PATH
 export GOROOT=/home/isucon/.local/go
 export GOPATH=/home/isucon/webapp/go
 export PATH=/home/isucon/.local/scala/bin:$PATH
+
+alias mp='myprofiler -host=localhost -user=root -limit=31 -dump=/tmp/rawquery.txt'
