@@ -15,4 +15,5 @@ export GOROOT=/home/isucon/.local/go
 export GOPATH=/home/isucon/webapp/go
 export PATH=/home/isucon/.local/scala/bin:$PATH
 
+alias msql='mysql -h localhost -P 3306 -u root isucon5q'
 alias mp='myprofiler -host=localhost -user=root -limit=31 -dump=/tmp/rawquery.txt'
