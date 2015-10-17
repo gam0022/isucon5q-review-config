@@ -2,8 +2,6 @@
 shopt -s expand_aliases		
 source ~/.bashrc		
 		
-sudo mv /tmp/nginx-access.log /tmp/nginx-access-pre.log		
-		
 sudo service nginx stop		
 #sudo mv /tmp/nginx-access.log /tmp/nginx-access-$(date '+%F-%T').log		
 sudo systemctl stop isuxi.go		
