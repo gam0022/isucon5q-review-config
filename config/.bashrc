@@ -16,4 +16,4 @@ export GOPATH=/home/isucon/webapp/go
 export PATH=/home/isucon/.local/scala/bin:$PATH
 
 alias mycon='mysql -h localhost -P 3306 -u root isucon5q'
-alias mypro='myprofiler -host=localhost -user=root -limit=30 -dump=$HOME/logs/mysql/rawquery.sql.`date +%F-%T`'
+alias mypro='myprofiler -host=localhost -user=root -limit=30 -dump=$HOME/logs/mysql/rawquery.sql.`date +%Y-%m-%d_%H-%M-%S`'
