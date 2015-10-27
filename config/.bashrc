@@ -15,5 +15,22 @@ export GOROOT=/home/isucon/.local/go
 export GOPATH=/home/isucon/webapp/go
 export PATH=/home/isucon/.local/scala/bin:$PATH
 
+
+# alias
+export REPO=$HOME/base
+export PATH=$REPO/bin:$PATH
 alias mycon='mysql -h localhost -P 3306 -u root isucon5q'
 alias mypro='myprofiler -host=localhost -user=root -limit=30 -dump=$HOME/logs/mysql/rawquery.sql.`date +%Y-%m-%d_%H-%M-%S`'
+alias summary='python $REPO/bin/summary_log.py $HOME/logs/nginx/`ls $HOME/logs/nginx | tail -1`'
+
+# gor
+export PATH=$GOPATH/src/github.com/buger/gor:$PATH
+
+# ENV
+export LC_ALL=C.UTF-8
+export LANG=C.UTF-8
+
+# gam0022
+alias ll='ls -al'
+alias l='ls'
+alias mvim='vim'
